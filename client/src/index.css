@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root{
+    --primary-blue:#4472C4;
+}
+
+.custom-input-border{
+    border-bottom:2px solid #4472C4;
+}
+
+.padding-top-h1{
+    padding-top: 1rem;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(28%) sepia(84%) saturate(1784%) hue-rotate(200deg) brightness(95%) contrast(99%);
+}
