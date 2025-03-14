@@ -11,7 +11,7 @@ const Registration = () => {
 
   return (
     <div className='h-[calc(100vh-15vh)] flex justify-center items-center'>
-      <div className="cards-container bg-[#4472C4] h-[80%] w-[70%] flex items-center justify-center gap-12 flex-wrap rounded-[2px]">
+      <div className="cards-container bg-[#4472C4] h-[80%] w-[70%] flex items-center justify-center gap-12 flex-wrap rounded-[2px] shadow-lg">
         <RegistrationCards 
           source={RegistrationLogo} 
           Ename="New Business Registration" 

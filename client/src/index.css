@@ -15,3 +15,18 @@
 input[type="date"]::-webkit-calendar-picker-indicator {
     filter: invert(28%) sepia(84%) saturate(1784%) hue-rotate(200deg) brightness(95%) contrast(99%);
 }
+
+input[type="file"]::-webkit-file-upload-button {
+    background-color: #4472C4;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.7s ease;
+
+}
+input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: crimson;
+}
+
